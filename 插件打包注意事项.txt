@@ -1,0 +1,11 @@
+1、android打包包名必须是com.puyuntech.yishibaixiu
+原因：
+1、jpush，android插件需要用此名称
+2、微信分享，android插件需要用此名称
+
+
+2、ios打包需要使用公测版
+原因：jpush只有公测版本才支持
+
+
+3、

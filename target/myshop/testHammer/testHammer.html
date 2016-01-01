@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>Hammer.JS - Hammer.js</title>
+
+        <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="description" content="Add multi-touch gestures to your webpage.">
+        <link rel="canonical" href="/">
+
+        <link rel="icon" href="/assets/img/favicon.ico">
+        <link rel="stylesheet" href="index.css">
+
+        <style type="text/css">
+            /*img {
+             max-height: 720px;
+             max-width: 640px;
+             width: expression(this.width > 640 && this.height < this.width ? 640: true);
+             height: expression(this.height > 720 ? 720: true);
+             }*/
+        </style>
+        <script>
+            // function getPosition(argument) {
+                // alert(1)
+                // var left = document.getElementById("hitarea").offset().left;
+                // alert(2)
+                // var top = $(".hitarea").offset().top;
+                // alert("left:" + left + "top:" + top);alert(2)
+            // }
+        </script>
+    </head>
+
+    <body >
+
+        <div class="row splash">
+            <!-- <div class="column"> -->
+            <!-- <div class="text-center" ></div> -->
+
+            <div class="try">
+                <div class="device">
+                    <div class="device-button" >
+                        <!-- <input id=""  type="button" value="获取位置" /> -->
+                    </div>
+                    <div class="device-screen-wrapper">
+                        <div class="device-screen">
+                            <img id="bg_img" src="img_lead_1.png" />
+                            <img id="hitarea" src="ic_launcher72.png"></img>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- </div> -->
+        </div>
+
+        <!-- <div class="footer">
+        <div class="row">
+        <div class="column" >
+        <input id="" onclick="getPosition()" type="button" value="获取位置" />
+        </div>
+        </div>
+        </div> -->
+
+        <script src="jquery-2.1.1.min.js"></script>
+        <script src="hammer.js"></script>
+        <script src="index.js"></script>
+
+    </body>
+</html>
